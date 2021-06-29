@@ -1,2 +1,2 @@
 # PortfolioLandingPage
-Landing page for the React portfolio.
+Landing page for the React portfolio. 
