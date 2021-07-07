@@ -1,0 +1,69 @@
+/*---------------------------------*/
+/*          Description            */
+/*---------------------------------*/
+
+.DesSection {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  padding: 150px 0px;
+}
+
+.DesSection .des_inner {
+  width: 100%;
+  height: auto;
+  clear: both;
+  display: flex;
+  align-items: center;
+}
+
+.DesSection .Col1 {
+  width: 50%;
+  padding-right: 50px;
+}
+
+.DesSection .Col2 {
+  width: 50%;
+  padding-left: 50px;
+}
+
+.DesSection .Col2 .box {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  margin-bottom: 40px;
+  padding-top: 27px;
+  color: #333;
+  font-family: Helvetica;
+  font-size: 150%;
+  text-align: left;
+}
+
+@media only screen and (max-width: 992px) {
+  .DesSection {
+    padding: 60px 0px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .DesSection .des_inner {
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 767px) {
+    .container {
+      padding: 0 15px;
+    }
+  }
+  .DesSectiont .Col1 {
+    padding-right: 0px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .DesSection .Col2 {
+    padding-left: 0px;
+    width: 100%;
+  }
+}
